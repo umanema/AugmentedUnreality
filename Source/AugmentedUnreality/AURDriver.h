@@ -17,7 +17,6 @@ limitations under the License.
 #pragma once
 
 #include "video_sources/AURVideoSource.h"
-#include "HAL/PlatformFilemanager.h"
 #include "AURDriver.generated.h"
 
 class AAURFiducialPattern;
