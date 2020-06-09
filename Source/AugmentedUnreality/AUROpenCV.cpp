@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AUROpenCV.h"
+#include "AugmentedUnreality.h"
 
 #include <cstdlib>
 #if PLATFORM_WINDOWS

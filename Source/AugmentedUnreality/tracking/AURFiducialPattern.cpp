@@ -14,11 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURFiducialPattern.h"
+#include "AugmentedUnreality/AugmentedUnreality.h"
 #include "AURMarkerComponentBase.h"
 #include "AURTrackingComponent.h"
-#include "AURDriver.h"
+#include "AugmentedUnreality/AURDriver.h"
 
 AAURFiducialPattern::AAURFiducialPattern()
 	: PatternFileDir("AugmentedUnreality/Patterns")

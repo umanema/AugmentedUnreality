@@ -17,7 +17,7 @@ limitations under the License.
 #pragma once
 
 #include "Engine.h"
-#include "ModuleManager.h"
+#include "Modules/ModuleManager.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogAUR, Log, All);
 

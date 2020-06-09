@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURDriver.h"
+#include "AugmentedUnreality.h"
 #include "tracking/AURFiducialPattern.h"
 
 UAURDriver* UAURDriver::CurrentDriver = nullptr;

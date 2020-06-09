@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AUROpenCVCalibration.h"
+#include "AugmentedUnreality.h"
 #include <sstream>
 
 const char* FOpenCVCameraProperties::KEY_RESOLUTION = "Resolution";

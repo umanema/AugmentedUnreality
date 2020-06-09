@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURVideoSourceAndroidCamera.h"
+#include "AugmentedUnreality/AugmentedUnreality.h"
 
 #if PLATFORM_ANDROID
 #include "Android/AndroidApplication.h"

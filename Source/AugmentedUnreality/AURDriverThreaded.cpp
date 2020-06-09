@@ -14,10 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURDriverThreaded.h"
+#include "AugmentedUnreality.h"
 #include <utility> // swap
-#include "Async.h"
+#include "Async/Async.h"
 
 UAURDriverThreaded::UAURDriverThreaded()
 	: bNewFrameReady(false)

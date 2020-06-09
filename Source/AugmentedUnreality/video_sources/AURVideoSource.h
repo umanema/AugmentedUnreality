@@ -15,7 +15,7 @@ limitations under the License.
 */
 #pragma once
 
-#include "Object.h"
+#include "UObject/Object.h"
 #include "AUROpenCV.h"
 #include "AUROpenCVCalibration.h"
 #include "AURVideoSource.generated.h"

@@ -14,10 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURFiducialPatternSpatial.h"
+#include "AugmentedUnreality/AugmentedUnreality.h"
 #include "AURMarkerComponentBase.h"
-#include "AURDriver.h"
+#include "AugmentedUnreality/AURDriver.h"
 
 const float INCH = 2.54f;
 

@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURVideoSource.h"
+#include "AugmentedUnreality/AugmentedUnreality.h"
 
 const FString UAURVideoSource::CalibrationDir = "AugmentedUnreality/Calibration";
 

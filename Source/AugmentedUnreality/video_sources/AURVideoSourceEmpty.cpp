@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURVideoSourceEmpty.h"
+#include "AugmentedUnreality/AugmentedUnreality.h"
 
 UAURVideoSourceEmpty::UAURVideoSourceEmpty()
 {

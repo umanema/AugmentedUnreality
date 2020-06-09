@@ -15,7 +15,7 @@ limitations under the License.
 */
 #pragma once
 
-#include "AUROpenCV.h"
+#include "AugmentedUnreality/AUROpenCV.h"
 #include "AURFiducialPattern.generated.h"
 
 /**

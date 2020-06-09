@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURVideoSourceVideoFile.h"
+#include "AugmentedUnreality/AugmentedUnreality.h"
 
 const float UAURVideoSourceVideoFile::MIN_FPS = 0.1;
 const float UAURVideoSourceVideoFile::MAX_FPS = 60.0;

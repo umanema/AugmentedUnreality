@@ -16,10 +16,10 @@ limitations under the License.
 
 #pragma once
 
-#include "AUROpenCVCalibration.h"
-#include "AUROpenCV.h"
+#include "AugmentedUnreality/AUROpenCVCalibration.h"
+#include "AugmentedUnreality/AUROpenCV.h"
 #include "AURFiducialPattern.h"
-#include "AURDriver.h"
+#include "AugmentedUnreality/AURDriver.h"
 
 #include "AURArucoTracker.generated.h"
 

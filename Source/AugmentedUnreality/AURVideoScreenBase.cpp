@@ -14,9 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+#include "AURVideoScreenBase.h"
 #include "AugmentedUnreality.h"
 #include "Engine.h"
-#include "AURVideoScreenBase.h"
 
 UAURVideoScreenBase::UAURVideoScreenBase()
 	: UseGlobalDriver(true)

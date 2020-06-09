@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURVideoScreenBackground.h"
+#include "AugmentedUnreality.h"
 
 UAURVideoScreenBackground::UAURVideoScreenBackground()
 	: Resolution(640, 480)
@@ -61,6 +61,6 @@ void UAURVideoScreenBackground::SetSizeForFOV(float FOV_Horizontal)
 	this->SetRelativeScale3D(FVector(height / 100.0, width / 100.0, 1));
 
 	const FString msg = "UAURVideoScreenBackground::SetSizeForFOV(fov_horizontal=" + FString::SanitizeFloat(FOV_Horizontal) + ") -> scale = " 
-		+ FString::SanitizeFloat(this->RelativeScale3D.X) + " x " + FString::SanitizeFloat(this->RelativeScale3D.Y);
+		+ FString::SanitizeFloat(this->GetRelativeScale3D().X) + " x " + FString::SanitizeFloat(this->GetRelativeScale3D().Y);
 	UE_LOG(LogAUR, Log, TEXT("%s"), *msg)
 }

@@ -13,9 +13,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-#include "AugmentedUnreality.h"
+
 #include "AURTrackingComponent.h"
-#include "AURDriver.h"
+#include "AugmentedUnreality/AugmentedUnreality.h"
+#include "AugmentedUnreality/AURDriver.h"
 #include "AURFiducialPattern.h"
 
 void UAURTrackingComponent::BeginPlay()

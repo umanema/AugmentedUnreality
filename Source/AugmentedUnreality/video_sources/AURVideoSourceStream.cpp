@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include "AugmentedUnreality.h"
 #include "AURVideoSourceStream.h"
+#include "AugmentedUnreality/AugmentedUnreality.h"
 
 UAURVideoSourceStream::UAURVideoSourceStream()
 	: ConnectionString("udpsrc port=5000 ! application/x-rtp, encoding-name=H264,payload=96 ! rtph264depay ! queue ! h264parse ! avdec_h264 ! videoconvert ! appsink")
